@@ -6,7 +6,7 @@ function Contact() {
     <div>
       <h1>Contact Page</h1>
       <p>Welcome to the Contact page!</p>
-      <Link to="/Home">Go back to Home</Link>
+      <Link to="/">Go back to Home</Link>
     </div>
   );
 }
