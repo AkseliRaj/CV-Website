@@ -10,7 +10,7 @@ const Footer = () => {
             <Link to="/Contact" className='text-dark'>Contact</Link>
           </li>
           <li className="list-inline-item">
-            <a href="https://github.com/your-github-username" className='text-dark'>GitHub</a>
+            <a href="https://github.com/AkseliRaj" target="_blank" rel="noopener noreferrer" className='text-dark'>GitHub</a>
           </li>
         </ul>
       </div>
