@@ -1,16 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import '../styles/footer.css'
 
 const Footer = () => {
   return (
-    <footer className="bg-light p-4 text-center">
+    <footer className="footer">
       <div>
         <ul className="list-inline">
           <li className="list-inline-item">
-            <Link to="/Contact" className='text-dark'>Contact</Link>
+            <Link to="/Contact">Contact</Link>
           </li>
           <li className="list-inline-item">
-            <a href="https://github.com/AkseliRaj" target="_blank" rel="noopener noreferrer" className='text-dark'>GitHub</a>
+            <a href="https://github.com/AkseliRaj" target="_blank" rel="noopener noreferrer">GitHub</a>
           </li>
         </ul>
       </div>

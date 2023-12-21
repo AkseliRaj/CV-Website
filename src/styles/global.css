@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Roboto Mono';
+    src: url('../font/static/RobotoMono-Regular.ttf'), format('truetype')/* Adjust the path based on your file structure */;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  * {
+    font-family: 'Roboto Mono', monospace;
+    color: #1F1F1F;
+  }
+
+a {  
+    text-decoration: none;
+    font-weight: 400;
+    transition: font-weight 0.3s ease;
+  }
+
+  a:hover {
+    font-weight: 900;
+  }
