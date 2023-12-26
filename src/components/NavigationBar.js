@@ -15,12 +15,12 @@ const NavigationBar = () => {
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/Contact">
-                Ota yhteyttä
+                Galleria
               </Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/Gallery">
-                Galleria
+                Yhteystiedot
               </Link>
             </li>
           </ul>
