@@ -8,10 +8,10 @@ const Footer = () => {
       <div>
         <ul className="list-inline">
           <li className="list-inline-item">
-            <Link to="/Contact">Contact</Link>
+            <Link to="/Contact" id="footer-Link">Yhteystiedot</Link>
           </li>
           <li className="list-inline-item">
-            <a href="https://github.com/AkseliRaj" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://github.com/AkseliRaj" target="_blank" rel="noopener noreferrer" id="footer-Link">GitHub</a>
           </li>
         </ul>
       </div>
