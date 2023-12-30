@@ -1,10 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../styles/home.css'
+import '../styles/home.css';
+
+// Components
+import ScrollWheel from '../components/ScrollDownIcon.js'
 
 // Pictures
-import SkeletonPicture1 from '../images/Skeleton.png'
-import SkeletonPicture2 from '../images/Skeleton2.png'
+import SkeletonPicture1 from '../images/Skeleton.png';
+import SkeletonPicture2 from '../images/Skeleton2.png';
 
 
 function Home() {
@@ -42,7 +45,9 @@ function Home() {
           <img src={SkeletonPicture2} alt="Skeleton2" class="img-fluid" />
         </div>
       </div>
+      <ScrollWheel />
     </div>
+
   );
 }
 

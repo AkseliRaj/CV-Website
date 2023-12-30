@@ -7,6 +7,16 @@
     margin-right: 20px;
 }
 
+h3 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+h4 {
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+
 #asterisk-text {
     color: #B5B4B4;
 }
@@ -16,6 +26,3 @@
     margin-bottom: 10vw;
 }
 
-#picture2-Container{
-    
-}
