@@ -6,8 +6,8 @@ import '../styles/home.css';
 import ScrollWheel from '../components/ScrollDownIcon.js'
 
 // Pictures
-import SkeletonPicture1 from '../images/Skeleton.png';
-import SkeletonPicture2 from '../images/Skeleton2.png';
+import SkeletonPicture1 from '../images/home/Skeleton.png';
+import SkeletonPicture2 from '../images/home/Skeleton2.png';
 
 
 function Home() {
