@@ -6,7 +6,7 @@ function PhotoRow({ images }) {
     <div className="container">
     <div className="row justify-content-center">
       {images.map((imageUrl, index) => (
-        <div key={index} className="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+        <div key={index} className="col-xs-12 col-sm-6 col-md-4 col-lg-4">
           <div className="image-container">
             <img
               src={imageUrl}

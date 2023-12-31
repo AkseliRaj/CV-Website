@@ -2,6 +2,11 @@ nav {
     font-size: 25px;
 }
 
+.logo {
+    width: 150px; 
+    height: auto; 
+  }
+
 li {
     padding: 20px;
 }
