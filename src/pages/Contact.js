@@ -1,42 +1,43 @@
 import React from 'react';
 import '../styles/contact.css';
+import ContactForm from '../components/ContactForm';
 
 function Contact() {
   return (
     <div className="container-fluid">
       <div className="justify-content-center">
 
-        <div className="col-6 mx-auto">
-          <div>
-            <h1>Haluatko ottaa yhteyttä?</h1>
+        <div className="col-6 pb-5 mx-auto">
+          <div className='pb-3'>
+            <h2>Haluatko ottaa yhteyttä?</h2>
           </div>
           <div>
             <p>Sepä mahtavaa kuulla!</p>
           </div>
         </div>
 
-        <div className="col-6 mx-auto">
+        <div className="col-6 pb-5 mx-auto">
           <div>
-            <h3>Voit lähettää minulle viestin alla olevalla lomakkeella:</h3>
+            <p>Voit lähettää minulle viestin alla olevalla lomakkeella:</p>
           </div>
           <div>
-            <p>*Lomake</p>
+            <ContactForm/>
           </div>
         </div>
 
         <div className="col-6 mx-auto">
-          <div>
-            <h1>Voit ottaa minuun yhteyttä myös muilla tavoin!</h1>
+          <div className='pb-3'>
+            <h2>Voit ottaa minuun yhteyttä myös muilla tavoin!</h2>
           </div>
-          <div>
+          <div className='pb-4'>
             <p>Ole hyvä ja valitse mieluisin viestintäkanavasi:</p>
           </div>
-          <div>
-            <p>Puhelin</p>
+          <div className='pb-3'>
+            <p id='header'>Puhelin</p>
             <p>+358 044 993 7101</p>
           </div>
           <div>
-            <p>Sähköposti</p>
+            <p id='header'>Sähköposti</p>
             <p>akseli.rajahalme@gmail.com</p>
           </div>
         </div>
