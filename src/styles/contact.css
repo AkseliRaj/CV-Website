@@ -1,0 +1,9 @@
+.container-fluid {
+    margin-top: 8vw;
+    margin-bottom: 8vw;
+}
+
+#div {
+    border-style: solid;
+    border-color: red;
+}
