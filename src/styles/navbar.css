@@ -1,5 +1,7 @@
 nav {
     font-size: 25px;
+    border-bottom: 1px solid;
+    color: #7a7979;
 }
 
 .logo {
@@ -9,4 +11,5 @@ nav {
 
 li {
     padding: 20px;
+    font-size: 20px;
 }

@@ -1,0 +1,8 @@
+label {
+    font-size: 20px;
+}
+
+.grey-textarea {
+    background-color: #f0f0f0; /* Change to the desired shade of grey */
+    border: 1px solid #ced4da; /* Add border for consistency */
+  }
