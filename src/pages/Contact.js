@@ -16,7 +16,7 @@ function Contact() {
           </div>
         </div>
 
-        <div className="col-6 pb-5 mx-auto">
+        <div className="col-6 pt-3 pb-5 mx-auto">
           <div className='pb-4'>
             <h2>Voit lähettää minulle viestin tällä lomakkeella:</h2>
           </div>
@@ -25,11 +25,11 @@ function Contact() {
           </div>
         </div>
 
-        <div className="col-6 pt-4 mx-auto">
+        <div className="col-6 pt-5 mx-auto">
           <div className='pb-3'>
             <h2>Voit ottaa minuun yhteyttä myös muilla tavoin!</h2>
           </div>
-          <div className='pb-5'>
+          <div className='pb-4'>
             <p>Ole hyvä ja valitse mieluisin viestintäkanavasi:</p>
           </div>
           <div className='pb-3'>
