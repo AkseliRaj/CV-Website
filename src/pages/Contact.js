@@ -8,8 +8,8 @@ function Contact() {
       <div className="justify-content-center">
 
         <div className="col-6 pb-5 mx-auto">
-          <div className='pb-3'>
-            <h2>Haluatko ottaa yhteyttä?</h2>
+          <div className='pb-4'>
+            <h1>Haluatko ottaa yhteyttä?</h1>
           </div>
           <div>
             <p>Sepä mahtavaa kuulla!</p>

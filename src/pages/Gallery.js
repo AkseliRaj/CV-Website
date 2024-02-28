@@ -1,24 +1,41 @@
 import React from 'react';
+import '../styles/gallery.css'
 import PhotoRow from '../components/PhotoRow.js';
 import { filmPhotos, digitalPhotos } from '../components/ImageImports.js';
 
 function Gallery() {
   return (
-    <div className="container">
-      <div className="row justify-content-center">
-        <div className='col-3'>
-          <h5>Kinofilmi kuvat</h5>
-          <h5>Digitaaliset kuvat</h5>
+    <div className="container-fluid pt-5">
+      <div class="row">
+
+        <div className='col-3' id='galleryNavigation'>
+          <div>
+            <p>Premiere</p> 
+          </div>
+          <div>
+            <p>Photoshop</p> 
+          </div>
+          <div>
+            <p>Valokuvaus</p> 
+          </div>
+          <div>
+            <p>Muut projektit</p> 
+          </div>
         </div>
-        <div className='col-8'>
-          <h2>Kinofilmi kuvat</h2>
-          <PhotoRow images={filmPhotos} />
-          <h2>Digitaaliset kuvat</h2>
-          <PhotoRow images={digitalPhotos} />
+            
+        <div className='col-7'>
+          <div className='pb-4'>
+            <h1 id='Header'>Premiere</h1>
+          </div>
+          <div>
+            <p>Alta löydät videoprojektin, jonka olen toteuttanut AR Isännöinti Oy kiinteistönvälitys yritykselle.</p>
+            <p>Kaikki heille toteuttamani videot löydät täältä</p>
+          </div>
         </div>
+
       </div>
     </div>
   );
 }
 
-export default Gallery;
+export default Gallery
